@@ -37,7 +37,7 @@ go build -o bin/client ./client
 ```shell
 ❯ bin/server
 2022/05/24 22:41:22 listening on 0.0.0.0:50051
-2022/05/24 22:41:32 Greetings func called a:6 b:5
+2022/05/24 22:41:32 Sum func called a:6 b:5
 ```
 
 ```shell
