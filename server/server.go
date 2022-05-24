@@ -16,7 +16,7 @@ type SumServer struct {
 var addrs string = "0.0.0.0:50051"
 
 func (s *SumServer) Sum(cxt context.Context, in *pb.SumRequest) (*pb.SumResponse, error) {
-	log.Printf("Greetings func called %v\n", in)
+	log.Printf("Sum func called %v\n", in)
 
 	return &pb.SumResponse{Result: in.A + in.B}, nil
 }
